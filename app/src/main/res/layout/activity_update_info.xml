@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateInfo">
+
+  <TextView
+      android:id="@+id/title_update_info"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:text="Patient Information"
+      android:textSize="35sp"
+      android:textStyle="bold"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.5"
+      android:layout_marginTop="16dp" />
+
+  <EditText
+      android:id="@+id/update_patient_id_info"
+      android:layout_width="0dp"
+      android:layout_height="47dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="30dp"
+      android:layout_marginEnd="24dp"
+      android:hint="Patient ID"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/title_update_info" />
+
+  <EditText
+      android:id="@+id/update_first_name"
+      android:layout_width="0dp"
+      android:layout_height="47dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="24dp"
+      android:hint="First Name"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/update_patient_id_info" />
+
+  <EditText
+      android:id="@+id/update_last_name"
+      android:layout_width="0dp"
+      android:layout_height="47dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="24dp"
+      android:hint="Last Name"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/update_first_name" />
+
+  <EditText
+      android:id="@+id/update_register_dept"
+      android:layout_width="0dp"
+      android:layout_height="47dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="24dp"
+      android:hint="Department"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/update_last_name" />
+
+  <EditText
+      android:id="@+id/update_nurse_id_info"
+      android:layout_width="0dp"
+      android:layout_height="47dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="24dp"
+      android:hint="Nurse ID"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/update_register_dept" />
+
+  <EditText
+      android:id="@+id/update_room_info"
+      android:layout_width="0dp"
+      android:layout_height="47dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginEnd="24dp"
+      android:hint="Room"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/update_nurse_id_info" />
+
+  <Button
+      android:id="@+id/btn_update_patient"
+      android:layout_width="0dp"
+      android:layout_height="65dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="30dp"
+      android:layout_marginEnd="16dp"
+      android:text="@string/btn_update_patient"
+      android:textSize="24sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/update_room_info" />
+</androidx.constraintlayout.widget.ConstraintLayout>

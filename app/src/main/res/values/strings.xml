@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">HospitalData</string>
+    <string name="button4">Login</string>
+    <string name="logon_title">Nurse Login</string>
+    <string name="nurse_id">Nurse id</string>
+    <string name="password">password</string>
+    <string name="btnNurseLogin">Login</string>
+
+    <string name="patient_id_info">Patient Id</string>
+    <string name="first_name_info">First Name</string>
+    <string name="last_name_info">Last Name</string>
+    <string name="department_info">Department</string>
+    <string name="nurse_id_info">Nurse Id</string>
+    <string name="room_info">Room No.</string>
+    <string name="title_patient_info">Patient Info</string>
+    <string name="btn_register_patient">Save Patient</string>
+    <string name="btn_update_patient">Update Patient</string>
+    <string name="btn_add_tests_info">Add Tests</string>
+
+
+    <string name="txt_title_test">Add Tests</string>
+    <string name="test_patient_id">Patient Id</string>
+    <string name="test_nurse_id">Nurse Id</string>
+    //
+    <string name="test_bpl">BPL</string>
+    //
+    <string name="test_bph">BPH</string>
+    <string name="test_temperature">Temperature</string>
+    <string name="test_name">Test Name</string>
+    <string name="btn_submit">Submit</string>
+
+    <string name="title_nurse_register">Register Nurse</string>
+    <string name="nurse_register_id">Nurse Id</string>
+    <string name="nurse_first_name">First Name</string>
+    <string name="nurse_last_name">Last Name</string>
+    <string name="nurse_dept">Department</string>
+    <string name="nurse_password">Password</string>
+    <string name="btn_register_nurse">Register Nurse</string>
+
+    <string name="btn_new_nurse">Register New Nurse</string>
+    <string name="btn_nav_reg">Register Patient</string>
+    <string name="btn_nav_details">Patient Details</string>
+
+
+</resources>
